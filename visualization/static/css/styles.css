@@ -1,0 +1,63 @@
+#header{
+    background-color: rgb(13 110 253);
+    padding: 0.5% 0% 0.5% 0%;
+}
+#sidepanel{
+    position: relative;
+    width: 100%;
+    background: rgb(100 157 241 / 59%);
+    height: 20vh;
+    display: flex;
+  }
+#scatterplot{
+    position: relative;
+    height: 69vh;
+    width: 99%;
+    display: flex;
+    margin: 0.5%;
+    border: 3px solid #a3c5f7;
+    border-radius: 10px;
+}
+#bttnDiv{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.selectedNode{
+    fill: rgb(253 237 48)  !important;
+}
+
+.selectedEdge{
+    fill: transparent  !important;
+    stroke: rgb(253 237 48)  !important;
+    /* stroke-width: 3  !important; */
+}
+.hoveredNode{
+    fill:rgb(13 110 253) !important;
+}
+
+.hoveredEdge{
+    fill: transparent !important;
+    stroke: rgb(163 197 247) !important;
+    stroke-width: 3 !important;
+}
+
+
+.fa-download{
+    color: #fff !important;
+    font-size: 1em !important;
+    margin-right: 5px !important;
+    text-align: center !important;
+}
+
+
+.select2-container {
+    width: auto !important;
+    margin-bottom: 18px !important;
+}
+
+.edgeselector .select2-container {
+    width: 100% !important;
+}
